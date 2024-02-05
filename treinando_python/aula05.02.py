@@ -99,11 +99,16 @@ sem descer uma linha'''
 '''criação de retangulo 
 criando um retangulo de 6x6'''
 
-linhas= 6
-colunas= 6 
-simbolo= 'x'
-for l in range(linhas):
-    for c in range(colunas):
-        print(simbolo, end = '  ')
-    print()    
+#linhas= 6
+#colunas= 6 
+#simbolo= 'x'
+#for l in range(linhas):
+ #   for c in range(colunas):
+  #      print(simbolo, end = '  ')
+   # print()    
  
+''' while'''
+contador= 2
+while contador<6:
+    print(f'valor do contador é {contador}')
+    contador -= 1

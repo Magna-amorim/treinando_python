@@ -49,13 +49,13 @@ Neste desafio, quero que você crie um script que solicite ao usuário dois núm
  Em seguida, seu script deve imprimir a soma, a subtração, a multiplicação, a divisão e a exponenciação 
  (o primeiro número elevado ao segundo números) desses dois números. 
 '''
-n1= float(input("Digite o primeiro número: "))
-n2= float(input("Digite o segundo número: "))
-print ("Soma=", n1+n2 )
-print("Subtracao=", n1-n2)
-print ("Multiplocação", n1*n2)
-print("Divisão", n1/n2)
-print("Exponenciação", n1**n2)
+#n1= float(input("Digite o primeiro número: "))
+#n2= float(input("Digite o segundo número: "))
+#print ("Soma=", n1+n2 )
+#print("Subtracao=", n1-n2)
+#print ("Multiplocação", n1*n2)
+#print("Divisão", n1/n2)
+#print("Exponenciação", n1**n2)
 
 '''
 Desafio 6
