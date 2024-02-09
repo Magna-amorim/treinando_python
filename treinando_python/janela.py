@@ -1,0 +1,11 @@
+from tkinter import *
+janela = Tk()
+janela.title("Empresa")
+janela.iconbitmap('Icon.ico')
+janela['bg']=('#808080')
+janela.geometry('500x400+50+20')
+etiqueta=Label(janela,text = "Olá Magna", cursor="dot")
+etiqueta.pack()
+etiqueta=Label(janela,height=20,width=20,text = "Olá Magna", cursor="dot")
+etiqueta.pack()
+janela.mainloop()

@@ -137,7 +137,6 @@ Manipular string
 '''
 
 palavra = "Apostila de Python"
-
 #len()
 print(len(palavra))
 
