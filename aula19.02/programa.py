@@ -11,7 +11,7 @@ def click1():
 
 janela = Tk()
 janela.title("Empresa")
-janela.iconbitmap('icone.ico')
+#janela.iconbitmap('icone.ico')
 janela['bg']=('pink')
 janela.geometry('500x400+50+200')
 etiqueta1=Label(janela,text = "Primeiro Número", bg=('pink'))
@@ -27,3 +27,4 @@ etiqueta.pack()
 botao=Button(janela, bg=('light blue'),text="Somar", padx='40', pady='10', command=click1)
 botao.pack()
 janela.mainloop()
+
