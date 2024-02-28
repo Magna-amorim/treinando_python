@@ -17,9 +17,9 @@ def selecao():
         z=" "
     if var.get() ==1:
         w="Masculino" 
-    if var.get() ==2:  
+    if  var.get() ==2:  
         w="Feminino" 
-        etq5['text'] = nome + "  " + w +' ' + lista.get(ANCHOR) + "  " +  x  +  y  +  z
+        etq5['text'] = nome + "  " + w + ' ' + lista.get(ANCHOR) + "  " +  x  +  y  +  z
 
 
 etq1=Label(janela, text=' Qual o seu nome?')
@@ -35,6 +35,7 @@ etq2.pack()
 var= IntVar()
 rb1= Radiobutton(janela, text= 'Masculino', variable=var, value=1)
 rb1.pack()
+
 rb2= Radiobutton(janela, text= 'Feminino', variable=var, value=2)
 rb2.pack()
 
