@@ -13,7 +13,11 @@ def salvar():
    file=open("notepad.txt", "w")
    file.write(container)
    file.close()
-
+#def update
+def update():
+    font=spin_font.get()
+    size=spin_size.get()
+    text_area.config(font="{} {}". format(font, size))   
 
 #criaçao de titulo
 Window.title("Notpade")
@@ -27,16 +31,26 @@ frame.pack(fill="x")
 #tipo de fonte
 fonte_text=tkinter.Label(frame,text="Fonte")
 fonte_text.pack(side="left")
+
 #spinbox
-spin_font=tkinter.Spinbox(frame, values=("Arial", "Verdana","Vladimir Script",
-                                         "Constantia", "Edwardian Script ITC", "Engravers MT",))
+spin_font=tkinter.Spinbox(frame, values=("Arial", "Verdana","jokerman",
+                                         "Constantia","Engravers MT",))
 spin_font.pack(side="left")
+
 #tamanho da fonte
 fonte_size=tkinter.Label(frame,text="Fonte Size")
 fonte_size.pack(side="left")
 
+#spinbox2
+spin_size=tkinter.Spinbox(frame, from_=0, to=60)
+spin_size.pack(side= "left")
+
+#criacao de botao update
+btn=tkinter.Button(frame, text='Up', command=update)
+btn.pack(side="left")
+
 #criação de area de texto
-text_area=tkinter.Text(Window, font="Arial 20 bold")
+text_area=tkinter.Text(Window, font="Arial 20 bold", width=1200, height=800)
 text_area.pack()
 
 #criacao de menu
